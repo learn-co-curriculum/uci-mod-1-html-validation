@@ -1,6 +1,12 @@
 # HTML Validation
 
-## Problem Statement
+## Learning Goals
+
+- Identify the W3C organization
+- Validate sample HTML
+- Identify HTML errors
+
+## Introduction
 
 You have written a few HTML pages by now. Did you accidentally break nesting and
 put emphasis on a whole page? Or did you type `<he>` instead of `<h3>`? How can
@@ -11,13 +17,7 @@ meets standards and is error free? Luckily, the W3C – the people who define th
 tags of HTML – have a validation service we can use. We'll explain the W3C and
 their validator in this lesson.
 
-## Objectives
-
-1. Identify W3C organization
-2. Validate sample HTML
-3. Identify HTML errors
-
-## Identify W3C organization
+## Identify the W3C Organization
 
 The World Wide Web Consortium (W3C) is an international community that develops
 open standards to ensure the long-term growth of the web. It operates under a
@@ -25,10 +25,10 @@ strict [code of ethics and professional
 conduct](https://www.w3.org/Consortium/cepc/) and provides many [free
 tools](https://www.w3.org/developers/tools/) for developers.
 
-## Validate sample HTML
+## Validate Sample HTML
 
 Take a look at this file: [`example_code.html`][s3-invalid] in a new tab. We'll
-call this the **viewing tab**. It looks relatively OK, right? There's some
+call this the **viewing tab**. It looks relatively okay, right? There's some
 oddness happening with the list at the bottom (we might not have wanted
 everything hyperlinked), and there's an odd bullet point with no content, but
 everything else looks pretty good.
@@ -57,7 +57,7 @@ always count on it being the same experience with every one. Tools like W3C's
 HTML Validator can catch these errors and prevent our user from having a poor
 experience.
 
-## Identifying HTML Errors
+## Identify HTML Errors
 
 Now that we have a page full of HTML validation errors, how do we start fixing
 them? There are several parts of the error message that will help us parse the
@@ -86,7 +86,9 @@ In this case, it's letting us know that our error is on line 10, from column
 Javascript and CSS as well as HTML. These error messages can serve as a roadmap
 to us, and help us troubleshoot much more efficiently.
 
-### A Valid HTML Experience  Now, let's see what a valid HTML file returns
+### A Valid HTML Experience
+
+Now, let's see what a valid HTML file returns
 
 1. Open the [`example_code_passing_validation.html`][s3-valid] file in a new
    tab. This will now be our new **viewing tab**
@@ -109,17 +111,10 @@ show.
 
 ## Resources
 
-[W3C](https://www.w3.org/)
-
-[HTML Validation Tool](https://validator.w3.org/)
-
-[Why Validate?](https://validator.w3.org/docs/why.html)
-
-[Video Walkthrough of HTML Validation](https://www.youtube.com/watch?v=nYglnxMUixM)
-
-<p data-visibility='hidden'>View <a
-href='https://learn.co/lessons/html-validation' title='HTML Validation'>HTML
-Validation</a> on Learn.co and start learning to code for free.</p>
+- [W3C](https://www.w3.org/)
+- [HTML Validation Tool](https://validator.w3.org/)
+- [Why Validate?](https://validator.w3.org/docs/why.html)
+- [Video Walkthrough of HTML Validation](https://www.youtube.com/watch?v=nYglnxMUixM)
 
 [s3-invalid]: https://curriculum-content.s3.amazonaws.com/web-development/html-validation/example_code.html
 [s3-valid]: https://curriculum-content.s3.amazonaws.com/web-development/html-validation/example_code_passing_validation.html
